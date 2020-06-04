@@ -28,6 +28,7 @@ public class FormularioController {
 		asignacionList.add("Developer");
 		asignacionList.add("Designer");
 		asignacionList.add("IT Manager");
+		asignacionList.add("Tester");
 		model.put("asignacionList", asignacionList);
 
 		return "Registro";
