@@ -18,7 +18,8 @@ img.one {
 
 <p>(1) ${webappRoot}</p>
 <p>(2) ${pageContext.request.contextPath}</p>
-<img class="one" src="images/registro1.png" />
+
+<p><img class="one" src="images/registro1.png" /></p>
 
 <p>First, let&rsquo;s see how form handling is supported in Spring MVC.</p>
 
