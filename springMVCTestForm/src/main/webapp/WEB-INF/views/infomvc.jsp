@@ -16,10 +16,11 @@ img.one {
 <P>  The time on the server is ${serverTime}. </P>
 <p>For most programmers, form handling is the day-to-day task in general web development as well as in Spring MVC development. A typical scenario would be like this: the user fills in a web form and click Submit button. The server receives the user&rsquo;s request, validates inputs, processes some business logic and finally returns a response/message back to the user. In this tutorial, we&rsquo;ll see how the Spring MVC framework supports form handling, and then build a sample application that handles a registration form which looks like this:</p>
 
-<p>(1) ${webappRoot}</p>
-<p>(2) ${pageContext.request.contextPath}</p>
+<p>(1) ${pageContext.request.contextPath}</p>
+<p>(1) ${images}</p>
 
-<p><img class="one" src="images/registro1.png" /></p>
+<p><img class="one" src="/images/registro1.png" /></p>
+
 
 <p>First, let&rsquo;s see how form handling is supported in Spring MVC.</p>
 
