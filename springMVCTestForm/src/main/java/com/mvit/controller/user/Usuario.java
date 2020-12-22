@@ -4,6 +4,7 @@ package com.mvit.controller.user;
 import java.util.Date;
 
 public class Usuario {
+	
 	private String usuario;
 	private String password;
 	private String email;
@@ -42,4 +43,11 @@ public class Usuario {
 	public void setAsignacion(String asignacion) {
 		this.asignacion = asignacion;
 	}
+	
+	@Override
+	public String toString() {
+		return "Usuario [usuario=" + usuario + ", password=" + password + ", email=" + email + ", fechaNacimiento="
+				+ fechaNacimiento + ", asignacion=" + asignacion + "]";
+	}
+	
 }
